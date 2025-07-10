@@ -1,6 +1,8 @@
 ﻿namespace ECommerce.Domain.Models;
 
-public class Product
+public class Product : BaseEntity
 {
-    
+    public string Name { get; set; }
+    public string Description { get; set; }
+    public int Quantity { get; set; }
 }

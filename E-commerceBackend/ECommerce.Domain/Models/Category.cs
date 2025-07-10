@@ -1,6 +1,6 @@
 ﻿namespace ECommerce.Domain.Models;
 
-public class Category
+public class Category : BaseEntity
 {
     
 }

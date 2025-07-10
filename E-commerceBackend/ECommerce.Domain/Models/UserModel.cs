@@ -1,6 +1,6 @@
 ﻿namespace ECommerce.Domain.Models;
-
-public class UserModel
+using Microsoft.AspNetCore.Identity;
+public class UserModel : IdentityUser
 {
     
 }
